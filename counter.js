@@ -1,6 +1,7 @@
 // Name of project "I got a question for Christophe"
 // count number of clicks
 // count 1 when key of keyboard used
+// save count in array
 // show content in a schema
 
 
@@ -13,5 +14,5 @@ button.onclick = function() {
 };
 button.onkeypress = function () {
     count += 1;
-    counter.innerHTML = "Total des \"hey Christophe\""+count;
+    counter.innerHTML = "Total des \"Hey Christophe\" : "+count;
 };
