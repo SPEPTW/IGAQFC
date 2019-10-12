@@ -6,7 +6,7 @@
 // remove users
 // show content in a schema
 
-if (confirm('Voulez vous vraiment aider Christophe à avoir son bureau ?')) {
+if (confirm('Veux-tu vraiment aider Christophe à avoir son bureau ?')) {
     alert('Merci pour ton aide');
 
     var button = document.getElementById("collegue");
